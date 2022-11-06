@@ -403,7 +403,7 @@ public class GamePanel extends JPanel implements Runnable {
         if (gameOver) {
             g2.setColor(new Color(255, 0, 0));
             g2.setFont(new Font("Arial", Font.PLAIN, 56));
-            g2.drawString("Game Over", 100, 200);
+            g2.drawString("Game Over", 100, 300);
         }
 
         g2.dispose();
